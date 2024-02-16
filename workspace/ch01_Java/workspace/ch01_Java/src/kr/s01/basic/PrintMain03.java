@@ -29,5 +29,10 @@ public class PrintMain03 {
 		//숫자(실수)
 		System.out.println(3.14);
 		System.out.println("3.14");//문자열
+		
+		//논리값(boolean)
+		System.out.println(true); //참값
+		System.out.println(false);//거짓값
+		System.out.println("true"); //문자열
 	}
 }
