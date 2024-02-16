@@ -23,4 +23,5 @@ public class PrintMain02 {
 		//System.out.println("특기 : 게임");
 		//System.out.println("취미 : 축구");
 	}
+	
 }
