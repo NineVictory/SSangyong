@@ -17,7 +17,7 @@ public class SpringMain02 {
 		System.out.println("마지막 문자 n의 위치 : "+ index);
 		
 		char c = s1.charAt(index); //바로 위에서 index가 n으로 지정되어있었기 때문에 c에는 n의 위치인 7이 들어간다.
-		System.out.println("지정한 인덱스의 문자 추출:"+c);
+		System.out.println("지정한 인덱스의 문자 추출:"+c);    
 		
 		index = s1.indexOf('S');
 		String str = s1.substring(index); //문자열 추출. index의 값부터 뒤에 값들을 반환한다. index는 S이기 때문에 S가 나오기 전까지의 문자들은 넘기고 S를 찾는다.
