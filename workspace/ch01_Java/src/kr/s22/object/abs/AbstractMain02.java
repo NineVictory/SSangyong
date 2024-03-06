@@ -10,7 +10,7 @@ abstract class A2{
 	public int gexX() {
 		return x;
 	}
-	//추상 메서드 -> 구현이 없는 메서드
+	//추상 메서드 -> 구현이 없는 메서드 {중괄호가 없음.}
 	public abstract void make();
 	
 }
