@@ -47,7 +47,9 @@ public class ArrayListMain04 {
 
 		//요소의 삭제
 		//list2.remove(2);//인덱스
-		list2.remove(Integer.valueOf(40)); //요소, int -> Integer로 변경됨
+		//list2.remove((Integer)40); //바로 아래와 같은 방법
+		list2.remove(Integer.valueOf(40)); //요소, int -> Integer로 변경해줘야지 삭제 가능
+		
 		//반복문을 이용한 요소의 출력
 		for (int i = 0; i<list2.size(); i++) {
 			System.out.println(i + " : " + list2.get(i));
